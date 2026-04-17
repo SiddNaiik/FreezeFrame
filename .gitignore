@@ -1,0 +1,46 @@
+# -----------------------------
+# Virtual Environment
+# -----------------------------
+venv/
+.env/
+
+# -----------------------------
+# Python cache files
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# -----------------------------
+# Compiled C files
+# -----------------------------
+*.o
+*.out
+*.so
+watcher
+
+# -----------------------------
+# Database files (runtime logs)
+# -----------------------------
+*.sqlite3
+*.db
+
+# -----------------------------
+# Logs
+# -----------------------------
+*.log
+
+# -----------------------------
+# Demo vault dynamic files
+# Ignore encrypted demo files
+# -----------------------------
+demo/vault/*
+!demo/vault/.ff_honey/
+!demo/vault/.ff_honey/**
+
+# -----------------------------
+# OS generated files
+# -----------------------------
+.DS_Store
+Thumbs.db
